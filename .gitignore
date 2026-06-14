@@ -1,0 +1,55 @@
+# Python cache and bytecode
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Virtual environments
+.venv/
+venv/
+env/
+ENV/
+
+# Editor and OS files
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
+
+# Test and tooling caches
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+.coverage
+htmlcov/
+
+# Build and packaging artifacts
+build/
+dist/
+*.egg-info/
+pip-wheel-metadata/
+
+# Logs and local environment files
+*.log
+.env
+.env.*
+
+# Machine learning artifacts and generated outputs
+*.keras
+*.h5
+*.ckpt
+*.pt
+*.pth
+*.onnx
+*.zip
+*.png
+
+# Project-generated folders
+datasets/
+predictions/
+results/
+models/
+
+# Keep evaluation scripts, but ignore generated evaluation data if added later
+evaluations/*.csv
+evaluations/*.json
+evaluations/*.png

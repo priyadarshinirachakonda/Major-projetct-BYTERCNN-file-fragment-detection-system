@@ -1,0 +1,6 @@
+Scenario: 2
+Accuracy: ~70%
+maxlen: 1536
+CNN_SIZE: 192
+RNN_SIZE: 96
+embed_dim: 32
